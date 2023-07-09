@@ -8,7 +8,7 @@ namespace IndianStatesCensusMS_Test
         public string stateCensusPath = @"D:\ReMapBridgeLabs\IndianStatesCensusAnalyserProblem\IndianStatesCensusMS_Test\NewFolder\IndianStateCode.csv";
         public string incorrectPath = @"D:\ReMapBridgeLabs\IndianStatesCensusAnalyserProblem\IndianStatesCensusMS_Test\IndianStateCode.csv";
         public string incorrectType = @"D:\ReMapBridgeLabs\IndianStatesCensusAnalyserProblem\IndianStatesCensusMS_Test\NewFolder\IncorrectType.txt";
-        public string delimeterPath = @"D:\ReMapBridgeLabs\IndianStatesCensusAnalyserProblem\IndianStatesCensusMS_Test\NewFolder\Delimeter.csv";
+        public string delimeterPath = @"D:\ReMapBridgeLabs\IndianStatesCensusAnalyserProblem\IndianStatesCensusMS_Test\NewFolder\InCorrectDelimeter.csv";
         public string headerPath = @"D:\ReMapBridgeLabs\IndianStatesCensusAnalyserProblem\IndianStatesCensusMS_Test\NewFolder\IncorrectHeader.csv";
         [TestMethod]
         //TC-1.1

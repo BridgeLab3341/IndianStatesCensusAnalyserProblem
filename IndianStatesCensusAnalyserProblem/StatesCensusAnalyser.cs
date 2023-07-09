@@ -13,7 +13,6 @@ namespace IndianStatesCensusAnalyserProblem
         //UC-1
         public int ReadStateCensusData(string filepath)
         {
-
             if (!File.Exists(filepath))
             {
                 throw new StateCensusException(StateCensusException.ExceptionType.FILE_INCORRECT, "Incorrect File Path");
@@ -22,7 +21,7 @@ namespace IndianStatesCensusAnalyserProblem
             {
                 throw new StateCensusException(StateCensusException.ExceptionType.FILE_TYPE_INCORRECT, "Incorrect File Type");
             }
-            var read=File.ReadAllLines(filepath);
+            var read = File.ReadAllLines(filepath);
             string header = read[0];
             if (header.Contains("/"))
             {

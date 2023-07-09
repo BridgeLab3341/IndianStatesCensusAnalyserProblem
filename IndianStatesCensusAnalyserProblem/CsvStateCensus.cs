@@ -20,7 +20,7 @@ namespace IndianStatesCensusAnalyserProblem
                 {
                     Console.WriteLine(data);
                 }
-                return(records.Count() - 1); 
+                return records.Count() -1; 
             }
         }
     }
